@@ -42,7 +42,7 @@ h1 {
 
 a {
   font-weight: 600;
-  color: #c383d7;
+  color: #e694ff;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -63,14 +63,13 @@ button {
   border-radius: 1.5rem;
   box-shadow: 0 6px 12px rgba(255, 182, 193, 0.3);
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
 }
 
-/* button:hover {
+button:hover {
   transform: scale(1.05);
   background: linear-gradient(145deg, #ff99cc, #c383d7);
   box-shadow: 0 8px 16px rgba(255, 182, 193, 0.4);
-} */
+}
 
 button:focus {
   outline: 3px dashed var(--mint);
